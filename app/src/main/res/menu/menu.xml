@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:title="">    </item>
+
+
+
+    <item
+        android:id="@+id/sharmilan"
+        android:icon="@drawable/ic_baselineuser"
+        android:title="Sureshwaran Sharmilan">
+
+    </item>
+
+
+    <item android:title="Others">
+
+        <menu>
+
+
+            <item android:id="@+id/menuprofile"
+                android:title="Notification"
+                android:icon="@drawable/ic_baselinenotifications"/>
+
+
+            <item android:id="@+id/payment"
+                android:title="Payment Method"
+                android:icon="@drawable/ic_baseline_payment_24"/>
+
+            <item android:id="@+id/invite"
+                android:title="Invite Friends"
+                android:icon="@drawable/ic_baselineupervisedusercircle"/>
+
+
+            <item android:id="@+id/promocode"
+                android:title="Promo Code"
+                android:icon="@drawable/ic_baselinepromocode"/>
+
+            <item android:id="@+id/offers"
+                android:title="Offers"
+                android:icon="@drawable/ic_baselineocaloffer"/>
+
+            <item android:id="@+id/ab"
+                android:title="About Us"
+                android:icon="@drawable/ic_baselinehelp"/>
+            <item android:title="">    </item>
+            <item android:title="">    </item>
+
+            <item android:id="@+id/logout"
+                android:title="Logout"
+                android:icon="@drawable/ic_baselinelogout"/>
+
+
+
+        </menu>
+
+    </item>
+
+</menu >
