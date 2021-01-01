@@ -9,7 +9,9 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.MaterialComponents.DayNight.NoActionBar">
-        <activity android:name=".Resturant"></activity>
+        <activity android:name=".DetailsActivity"></activity>
+        <activity android:name=".order" />
+        <activity android:name=".Resturant" />
         <activity android:name=".Mainpage" />
         <activity android:name=".signup" />
         <activity android:name=".login" />

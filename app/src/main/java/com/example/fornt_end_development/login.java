@@ -42,7 +42,7 @@ public class login extends AppCompatActivity {
         home.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent i=new Intent(login.this,Resturant.class);
+                Intent i=new Intent(login.this,order.class);
                 startActivity(i);
             }
         });
